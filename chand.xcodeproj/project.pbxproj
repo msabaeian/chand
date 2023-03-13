@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0C5B989E29BFB5AB00592244 /* chandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B989D29BFB5AB00592244 /* chandApp.swift */; };
-		0C5B98A029BFB5AB00592244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B989F29BFB5AB00592244 /* ContentView.swift */; };
 		0C5B98A229BFB5AC00592244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B98A129BFB5AC00592244 /* Assets.xcassets */; };
 		0C5B98A529BFB5AC00592244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5B98A429BFB5AC00592244 /* Preview Assets.xcassets */; };
+		0C5B98B129BFB5C900592244 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B98AD29BFB5C900592244 /* Home.swift */; };
+		0C5B98B229BFB5C900592244 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B98AF29BFB5C900592244 /* Card.swift */; };
+		0C5B98B329BFB5C900592244 /* SectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B98B029BFB5C900592244 /* SectionTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C5B989A29BFB5AB00592244 /* chand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5B989D29BFB5AB00592244 /* chandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chandApp.swift; sourceTree = "<group>"; };
-		0C5B989F29BFB5AB00592244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C5B98A129BFB5AC00592244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5B98A429BFB5AC00592244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C5B98AD29BFB5C900592244 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0C5B98AF29BFB5C900592244 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0C5B98B029BFB5C900592244 /* SectionTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,8 @@
 		0C5B989C29BFB5AB00592244 /* chand */ = {
 			isa = PBXGroup;
 			children = (
+				0C5B98AB29BFB5C900592244 /* Views */,
 				0C5B989D29BFB5AB00592244 /* chandApp.swift */,
-				0C5B989F29BFB5AB00592244 /* ContentView.swift */,
 				0C5B98A129BFB5AC00592244 /* Assets.xcassets */,
 				0C5B98A329BFB5AC00592244 /* Preview Content */,
 			);
@@ -65,6 +69,32 @@
 				0C5B98A429BFB5AC00592244 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C5B98AB29BFB5C900592244 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B98AC29BFB5C900592244 /* Screens */,
+				0C5B98AE29BFB5C900592244 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C5B98AC29BFB5C900592244 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B98AD29BFB5C900592244 /* Home.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0C5B98AE29BFB5C900592244 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B98AF29BFB5C900592244 /* Card.swift */,
+				0C5B98B029BFB5C900592244 /* SectionTitle.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5B98A029BFB5AB00592244 /* ContentView.swift in Sources */,
+				0C5B98B329BFB5C900592244 /* SectionTitle.swift in Sources */,
+				0C5B98B129BFB5C900592244 /* Home.swift in Sources */,
 				0C5B989E29BFB5AB00592244 /* chandApp.swift in Sources */,
+				0C5B98B229BFB5C900592244 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
